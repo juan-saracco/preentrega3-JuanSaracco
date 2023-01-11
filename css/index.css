@@ -24,6 +24,8 @@
     margin: auto;
     border: solid 1.5px black;
     height: 50vh;
+    min-height: 20rem;
+    min-width: 20rem;
     width: 40vw;
 
 }
@@ -40,15 +42,61 @@
     padding: 10px;
 }
 
-#enter, #create, .registerEnter{
+#enter, #create, .registerEnter, .home{
     background-color: lightblue;
     width: 100%;
 }
 
 /*Registro*/
 
+.titleContainer{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
 #registerContainer{
     margin-top: 7rem;
 }
 
+/*index*/
+
+#notas{
+    border: solid 1px black;
+    height: 30vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.grilla{
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 50vw;
+    height: 6rem;
+    margin-top: 2rem;
+}
+
+.home{
+    width: 16rem;
+    height: 2rem;
+}
+
+.enviarNotas{
+    width: 16rem;
+}
 

@@ -5,9 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de notas</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <h1>index</h1>
+    <section>
+        <div class="titleContainer">
+            <h1>Bienvenido alumno "X"</h1>
+        </div>
+    </section>
+    <section>
+        <div id="notas">
+            <div class="nombreAlumno grilla">
+                <span>Nombre y Apellido</span>
+            </div>
+            <div class="primerNota grilla">
+                <span>Primer trimestre</span>
+            </div>
+            <div class="SegundaNota grilla">
+                <span>Segundo trimestre</span>
+            </div>
+            <div class="TercerNota grilla">
+                <span> Tercer trimestre</span>
+            </div>
+            <div class="Promedio grilla">
+                <span>Promedio</span>
+            </div>
+            <div class="Nota grilla">
+                <span>Nota</span>
+            </div>
+            <div class="valorPrimerNota grilla"></div>
+            <div class="valorSegundaNota grilla"></div>
+            <div class="valorTercerNota grilla"></div>
+            <div class="Promedio grilla"></div>
+        </div>
+    </section>
+    <section id="section3Container">
+        <div class="cargarNotasContainer">
+            <input type="number" placeholder="Ingresa tus notas de a una a la vez" class="input enviarNotas">
+            <input type="button" value="Enviar" class="input">
+        </div>
+        <div>
+            <a href="./iniciarSesion.html"><input class="home" type="button" value="Volver al inicio"></a>
+        </div>
+
+    </section>
     
 </body>
 </html> 
