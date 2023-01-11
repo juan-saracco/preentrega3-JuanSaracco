@@ -1,0 +1,54 @@
+/*globales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Inciar Sesion*/
+
+.logIn-section{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+#titulo{
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.formContainer{
+    margin: auto;
+    border: solid 1.5px black;
+    height: 50vh;
+    width: 40vw;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+}
+
+.input{
+    padding: 10px;
+}
+
+#enter, #create, .registerEnter{
+    background-color: lightblue;
+    width: 100%;
+}
+
+/*Registro*/
+
+#registerContainer{
+    margin-top: 7rem;
+}
+
+
