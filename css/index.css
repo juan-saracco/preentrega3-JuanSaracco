@@ -42,7 +42,7 @@
     padding: 10px;
 }
 
-#enter, #create, .registerEnter, .home{
+#enter, #create, .registerEnter, .home, .back{
     background-color: lightblue;
     width: 100%;
 }

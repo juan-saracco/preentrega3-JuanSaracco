@@ -10,12 +10,14 @@
 <body>
     <div class="formContainer" id="registerContainer">
         <form action="#" method="get" class="form" id="register">
-            <input class="input" type="text" placeholder="Nombre">
-            <input class="input" type="text" placeholder="Apellido">
-            <input class="input" type="text" placeholder="Contraseña">
-            <a  href="./iniciarSesion.html"><input class="input registerEnter" type="button" value="Registrarse" ></a>
+            <input class="input" type="text" placeholder="Nombre" id="nombre">
+            <input class="input" type="text" placeholder="Apellido" id="apellido">
+            <input class="input" type="email" placeholder="email" id="userMail">
+            <input class="input" type="text" placeholder="Contraseña" id="userPass">
+            <input class="input registerEnter" type="button" value="Registrarse" id="registrarse">
+            <a href="./iniciarSesion.html"><input  class="input back" type="button" value="Iniciar sesion"></a>
         </form>
     </div>
-    
+    <script src="./js/login.js"></script>
 </body>
 </html>
